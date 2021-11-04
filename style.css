@@ -241,7 +241,7 @@ ol {
 
 .container {
   padding-left: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   width: 80%;
 }
 
@@ -296,7 +296,6 @@ ol {
   font-size: 14px;
   font-weight: 700;
   margin-top: 15px;
-  margin-bottom: 80px;
 }
 
 .work {
@@ -502,6 +501,9 @@ ol {
     color: var(--main-color);
     font-size: 14px;
   }
+  .specialization {
+    padding-bottom: 70px;
+  }
 
   .tech_skills {
     width: 32%;
@@ -526,6 +528,7 @@ ol {
 
   .about {
     justify-content: center;
+    padding-bottom: 20px;
   }
 
   .contacts_and_skills {
