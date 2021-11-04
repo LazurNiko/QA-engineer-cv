@@ -1,1 +1,0 @@
-# QA-engineer-cv
