@@ -308,7 +308,7 @@ ol {
 
 @keyframes mymoveL {
   from {left: 0px;}
-  to {left: 5px;}
+  to {left: 5px; letter-spacing: 1px;}
 }
 
 .link:hover {
