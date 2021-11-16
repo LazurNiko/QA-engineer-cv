@@ -541,7 +541,27 @@ ol {
 
 @media (max-width: 845px) {
 
+  .container {
+    width: 76%;
+  }
+
+  .info {
+    padding-right: 0;
+  }
+
   .menu__link {
+    font-size: 10px;
+  }
+
+  .portfolio_links {
+    font-size: 12px;
+  }
+
+  .dots {
+    font-size: 14px;
+  }
+
+  .link_skills {
     font-size: 10px;
   }
 
@@ -716,6 +736,14 @@ ol {
 
 @media (max-width: 600px) {
 
+  .link_skills {
+    font-size: 14px;
+  }
+
+  .link {
+    font-size: 14px;
+  }
+
   .arrow {
     padding-left: 300px;
   }
@@ -802,6 +830,10 @@ ol {
 
   .skills {
     font-size: 14px;
+  }
+
+  .container {
+    width: 80%;
   }
 
 }
