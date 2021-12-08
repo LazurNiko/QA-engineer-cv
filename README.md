@@ -1,9 +1,11 @@
 [CV DEMO LINK](https://lazurniko.github.io/CV/)
 
-I’m a goal-oriented, creative and self-motivated web developer specializing in QA. I have experience in working with HTML requests in Postman, building unit tests in Jest and Cypress. I am well familiar with CSS/HTML, Sass preprocessor, JS, cross-browser and adaptive markup skills. Eager to improve my skills, always try to learn new technologies and stay up-to-date with Quality Assurance trends. I also learn quickly and easily communicate with people.
-
-Also checkout some of my works: 
-
-- [Kickstarter Landing Page](https://LazurNiko.github.io/Kickstarter/)
-- [IVA Production Landing Page](https://lazurniko.github.io/IVAproduction/)
-- [Miami Landing Page](https://LazurNiko.github.io/layout_miami/)
+I’m a goal-oriented, creative and self-motivated QA engineer. 
+            I'm interested in learning automotive testing, and have some 
+            experience in working with API testing (Postman), Unit testing, 
+            Integration testing and e2e testing (Jest, Cypress). I am well 
+            familiar with Test design techniques, test suits creating and executing. 
+            Also have strong knowledge of HTML, Sass preprocessor, JS, cross-browser 
+            and adaptive markup skills. Eager to improve my skills, always try to learn 
+            new technologies and stay up-to-date with Quality Assurance trends. 
+            I also learn quickly and easily communicate with people.
