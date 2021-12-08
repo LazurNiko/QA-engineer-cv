@@ -1,4 +1,4 @@
--- [CV LINK] --(https://lazurniko.github.io/QA-engineer-cv/)
+[-- [CV LINK ]---](https://lazurniko.github.io/QA-engineer-cv/)
 
 I’m a goal-oriented, creative and self-motivated QA engineer. 
             I'm interested in learning automotive testing, and have some 
