@@ -259,7 +259,6 @@ ol {
 }
 
 .about_profession {
-  padding: 0px 40px;
   margin-left: 20px;
   display: flex;
   flex-direction: column;
@@ -357,7 +356,7 @@ ol {
 }
 
 .container {
-  padding-left: 60px;
+  padding-left: 20px;
   margin-bottom: 50px;
   width: 80%;
 }
