@@ -102,6 +102,10 @@ ol {
   line-height: 24px;
 }
 
+.phonecontact {
+  color: #2b3038;
+}
+
 .contacts_list {
   padding: 0;
   list-style: none;
