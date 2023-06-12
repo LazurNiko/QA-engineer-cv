@@ -103,6 +103,7 @@ ol {
 }
 
 .phonecontact {
+  font-weight: 600;
   color: #2b3038;
 }
 
@@ -554,6 +555,10 @@ ol {
 
 @media (max-width: 845px) {
 
+  .phonecontact {
+    font-size: 10px;
+  }
+
   .container {
     width: 76%;
   }
@@ -622,6 +627,10 @@ ol {
     float: none;
   }
 
+  .phonecontact {
+    color: var(--main-color);
+  }
+
   .menu__list {
     display: block;
     letter-spacing: 2px;
@@ -661,6 +670,10 @@ ol {
 
   .skills_title {
     font-size: 25px;
+  }
+
+  .phonecontact {
+    font-size: 14px;
   }
 
   .tel {
@@ -712,10 +725,6 @@ ol {
   }
 
   .contacts_list {
-    padding-left: 40px;
-  }
-
-  .tel {
     padding-left: 40px;
   }
 
@@ -802,7 +811,7 @@ ol {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 515px) {
 
 .contacts {
     padding: 20px 0 0;
