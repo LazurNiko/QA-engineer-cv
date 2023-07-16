@@ -689,7 +689,9 @@ glitch-wrapper {
 
   .info {
     padding-right: 0;
+    font-size: 12px;
   }
+
 
   .link {
     font-size: 13px;
@@ -954,10 +956,17 @@ glitch-wrapper {
 @media (max-width: 515px) {
 
 .contacts {
-    
     width: 84%;
     background-color: inherit;
     display: block;
+  }
+
+  .profession {
+    padding-top: 34px;
+  }
+
+  .sidebar {
+    padding-bottom: 10px;
   }
 
   .contacts_title {
