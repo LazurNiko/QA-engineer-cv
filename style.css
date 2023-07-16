@@ -761,10 +761,6 @@ glitch-wrapper {
     float: none;
   }
 
-  .phonecontact {
-    color: var(--main-color);
-  }
-
   .container {
     width: 100%;
   }
@@ -820,7 +816,6 @@ glitch-wrapper {
   .tel {
     text-transform: uppercase;
     font-weight: 400;
-    color: var(--main-color);
     font-size: 14px;
   }
   .specialization {
@@ -981,7 +976,6 @@ glitch-wrapper {
   .tel {
     text-transform: uppercase;
     font-weight: 400;
-    color: var(--main-color);
     font-size: 14px;
   }
 
