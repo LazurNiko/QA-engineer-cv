@@ -679,19 +679,18 @@ glitch-wrapper {
     font-size: 13px;
     width: 75%;
   }
-}
-
-@media (max-width: 845px) {
-
-  .phonecontact {
-    font-size: 10px;
-  }
 
   .info {
     padding-right: 0;
     font-size: 12px;
   }
+}
 
+@media (max-width: 860px) {
+
+  .phonecontact {
+    font-size: 12px;
+  }
 
   .link {
     font-size: 13px;
@@ -720,7 +719,7 @@ glitch-wrapper {
   }
 
   .tel {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .contacts_title {
@@ -878,6 +877,7 @@ glitch-wrapper {
   .tech_skills {
     display: flex;
     width: 100%;
+    padding-top: 20px;
   }
 
   .skills_title--soft {
@@ -894,11 +894,17 @@ glitch-wrapper {
   }
 
   .container {
-    padding-left5px: 0;
+    padding-left: 0;
   }
 }
 
 @media (max-width: 600px) {
+
+  .dropdownContainer{
+    visibility: visible;
+    justify-content:center;
+    align-items:center
+    }
 
   .link_skills {
     font-size: 10px;
@@ -955,7 +961,11 @@ glitch-wrapper {
 
 @media (max-width: 515px) {
 
-.contacts {
+  .page {
+    padding-top: 0;
+  }
+
+  .contacts {
     width: 84%;
     background-color: inherit;
     display: block;
@@ -966,7 +976,7 @@ glitch-wrapper {
   }
 
   .sidebar {
-    padding-bottom: 10px;
+    padding: 0;
   }
 
   .contacts_title {
@@ -1000,6 +1010,10 @@ glitch-wrapper {
 
   .skills {
     font-size: 14px;
+  }
+
+  .profession {
+    padding-top: 40px;
   }
 
 }
