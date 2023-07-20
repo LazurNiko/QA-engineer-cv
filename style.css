@@ -261,16 +261,14 @@ ol {
 
   position: relative;
   animation: mymoveP 2s forwards, flicker 7s infinite, glow 2s infinite;
-  animation-delay: ease-in;
-  animation-delay: none;
 }
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 10px #6CCAD1, 0 0 20px #6CCAD1, 0 0 30px #6CCAD1, 0 0 40px #6CCAD1, 0 0 50px #6CCAD1;
+    text-shadow: 0 0 10px #fff, 0 0 2px #fff, 0 0 5px #6CCAD1, 0 0 10px #6CCAD1, 0 0 15px #6CCAD1, 0 0 20px #6CCAD1, 0 0 25px #6CCAD1;
   }
   to {
-    text-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 15px #6CCAD1, 0 0 20px #6CCAD1, 0 0 25px #6CCAD1, 0 0 30px #6CCAD1, 0 0 35px #6CCAD1;
+    text-shadow: 0 0 15px #fff, 0 0 2px #fff, 0 0 5px #6CCAD1, 0 0 10px #6CCAD1, 0 0 15px #6CCAD1, 0 0 20px #6CCAD1, 0 0 25px #6CCAD1;
   }
 }
 
