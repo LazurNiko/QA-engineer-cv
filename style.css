@@ -87,7 +87,6 @@ ol {
   margin: 0;
   background: rgb(37, 37, 37);
   width: 30%;
-  padding-top: 10px;
   padding-bottom: 40px;
 }
 
@@ -759,6 +758,7 @@ glitch-wrapper {
 @media (max-width: 760px) {
 
   .page {
+    padding-top: 0;
     padding-left: 0;
     padding-right: 0;
   }
@@ -806,7 +806,6 @@ glitch-wrapper {
 
   .contacts {
     width: 33%;
-    background-color: inherit;
   }
 
   .contacts_title {
@@ -843,9 +842,9 @@ glitch-wrapper {
   }
 
   .contacts_and_skills {
+    padding-left: 0;
     display: flex;
     justify-content: space-around;
-    padding-left: 20px;
   }
 
   .portfolio_links {
@@ -855,6 +854,10 @@ glitch-wrapper {
 
 @media (max-width: 700px) {
 
+  .page {
+    padding: 5px;
+  }
+
   .about {
     justify-content: center;
     padding-bottom: 20px;
@@ -863,13 +866,11 @@ glitch-wrapper {
   .contacts_and_skills {
     flex-direction: column;
     justify-content: center;
-    padding-left: 20px;
   }
 
   .contacts {
     display: flex;
-    padding-left: 20px;
-    width: 88%;
+    width: 90%;
   }
 
   .contacts_list {
@@ -969,12 +970,11 @@ glitch-wrapper {
 @media (max-width: 515px) {
 
   .page {
-    padding-top: 0;
+    padding: 0;
   }
 
   .contacts {
-    width: 84%;
-    background-color: inherit;
+    width: 90%;
     display: block;
   }
 
@@ -1032,7 +1032,17 @@ glitch-wrapper {
   }
 }
 
+@media (max-width: 416px) {
+  .span.style {
+    display: none;
+  }
+}
+
 @media (max-width: 360px) {
+
+  .contacts {
+    width: 83%;
+  }
 
   .name {
     font-size: 35px;
