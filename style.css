@@ -254,15 +254,24 @@ ol {
   font-family: monospace;
   font-size: 15px;
   font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 4px;
+  line-height: 15px;
+  letter-spacing: 10px;
   padding-top: 60px;
   color: #6CCAD1;
 
   position: relative;
-  animation: mymoveP 2s forwards;
+  animation: mymoveP 2s forwards, flicker 7s infinite, glow 2s infinite;
   animation-delay: ease-in;
   animation-delay: none;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 10px #6CCAD1, 0 0 20px #6CCAD1, 0 0 30px #6CCAD1, 0 0 40px #6CCAD1, 0 0 50px #6CCAD1;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 15px #6CCAD1, 0 0 20px #6CCAD1, 0 0 25px #6CCAD1, 0 0 30px #6CCAD1, 0 0 35px #6CCAD1;
+  }
 }
 
 @keyframes mymoveP {
@@ -489,7 +498,7 @@ glitch-wrapper {
 }
 
 .glitch:after {
-  animation: glitch-color 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+  animation: glitch-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
   color: #ff00ff;
   z-index: -2;
 }
