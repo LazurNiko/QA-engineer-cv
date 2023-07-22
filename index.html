@@ -9,9 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     >
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script> -->
   </head>
-
-   <body class="page">
+   <body class="page" id="container123">
 
     <!--<header class="header">
       <nav class="menu page__menu" id="menu">
@@ -115,14 +115,12 @@
             Niko Lazur
           </h1>
           <span class="info type" style="--n:627">
-            I’m a goal-oriented, creative and self-motivated QA engineer. I'm interested in automotive testing, pentesting and
-            have some experience in working with API testing (Postman), Unit testing, Integration testing and e2e testing
+            I’m a goal-oriented, creative and self-motivated QA engineer. I'm interested in automotive testing, pentesting, API testing (Postman), Unit testing, e2e testing
             (Jest, Cypress, Playwright). I am well familiar with Test design techniques, test suits creating and executing. 
             Also have strong knowledge of HTML, SASS, JS, cross-browser and adaptive markup skills. Working with basic 
             pentesting tools. Eager to improve my skills, always try to learn new technologies and stay up-to-date with Quality 
             Assurance trends. I also learn quickly and easily communicate with people.
           </span>
-    
 
         <section class="container" id='portfolio'>
           <h3 class="portfolio"><span style="color: #6CCAD1; font-weight: 100;">$_</span><span style="color: #6CCAD1; font-weight: 100;">(<span style="color: var(--main-color); font-weight: 700;">my_projects</span style="font-weight: 100;">)</span><span style="color: #6CCAD1; font-weight: 100">-[<span style="color: var(--main-color); font-weight: 100;">~</span>]</span></h3>
@@ -351,5 +349,14 @@
         </footer> -->
       </div> 
     </main>
+     <!-- <button class="descargar_pdf" id="ignorePDF" onclick="descargar_pdf();"> Descarga tu estado de cuenta</button>
+    <script>
+      function descargar_pdf(){
+          var pdf = new jsPDF();
+          pdf.addHTML(document.body,function() {
+            pdf.save('*.pdf');
+          });
+      } 
+    </script> -->
   </body>
 </html>

@@ -264,10 +264,10 @@ ol {
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 2px #fff, 0 0 5px #6CCAD1, 0 0 10px #6CCAD1, 0 0 15px #6CCAD1, 0 0 20px #6CCAD1, 0 0 25px #6CCAD1;
+    text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 5px #6CCAD1, 0 0 10px #6CCAD1, 0 0 15px #6CCAD1, 0 0 20px #6CCAD1, 0 0 25px #6CCAD1;
   }
   to {
-    text-shadow: 0 0 15px #fff, 0 0 2px #fff, 0 0 5px #6CCAD1, 0 0 10px #6CCAD1, 0 0 15px #6CCAD1, 0 0 20px #6CCAD1, 0 0 25px #6CCAD1;
+    text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 5px #6CCAD1, 0 0 10px #6CCAD1, 0 0 15px #6CCAD1, 0 0 20px #6CCAD1, 0 0 25px #6CCAD1;
   }
 }
 
@@ -974,7 +974,7 @@ glitch-wrapper {
   }
 
   .contacts {
-    width: 90%;
+    width: 88%;
     display: block;
   }
 
@@ -1027,12 +1027,31 @@ glitch-wrapper {
 
 @media (max-width: 450px) {
 
+  .contacts {
+    width: 85%;
+  }
+
   .arrow {
     padding-left: 250px;
   }
 }
 
 @media (max-width: 416px) {
+
+
+  .container {
+    margin: 40px 0;
+  }
+
+.soft_skills {
+  margin-bottom: 0;
+}
+
+.sidebar {
+  padding: 0 0 10px 0;
+  border: none;
+}
+
   .span.style {
     display: none;
   }
@@ -1041,7 +1060,7 @@ glitch-wrapper {
 @media (max-width: 360px) {
 
   .contacts {
-    width: 83%;
+    width: 84%;
   }
 
   .name {
