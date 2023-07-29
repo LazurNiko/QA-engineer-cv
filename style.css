@@ -262,33 +262,27 @@ ol {
 }
 
 .contactme_item {
-  background-color: #6CCAD1;
+  background-color: var(--main-color);
   border-radius: 10px;
   width: 35px;
   height: 35px;
-  transition: 0.3s ease-in;
-  animation: glow1 1s infinite;
+  box-shadow: 0 0 5px  rgb(128, 255, 128, 0.4), 0 0 10px rgba(150, 243, 150, 0.5), 0 0 5px rgba(116, 243, 116, 0.5) 0 0 5px rgba(96, 255, 96, 0.5), 0 0 15px rgba(0, 255, 0, 0.6);
+  transition: 0.3s ease-in-out;
+  animation:  flicker 6s infinite;
+  animation-direction: alternate;
 }
 
-@keyframes glow1 {
-  from {
-    box-shadow: 0 0 1px #b7f2f7, 0 0 5px #a8fbff, 0 0 8px #82b7bb, 0 0 10px #87d3d8, 0 0 15px #6ef4fd;
-  }
-  to {
-    box-shadow: 0 0 1px #a5e8f8, 0 0 5px #89e6ec, 0 0 8px #6ba9ad, 0 0 10px #6CCAD1, 0 0 15px #7cd8df;
-  }
-}
 
 .mail {
-  animation-delay: 0.4s;
+  animation-delay: 7s;
 }
 
 .linked {
-  animation-delay: 0.6s;
+  animation-delay: 15s;
 }
 
 .github {
-  animation-delay: 0.8s;
+  animation-delay: 19s;
 }
 
 .contactme_item:hover {
