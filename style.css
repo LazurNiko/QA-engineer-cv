@@ -261,33 +261,29 @@ ol {
   flex-wrap: wrap;
 }
 
+
+
+@keyframes glow1 {
+  from {
+    box-shadow: 0 0 1px #8adf52, 0 0 1px #8adf52, 0 0 5px #8adf52, 0 0 10px #8adf52, 0 0 15px #8adf52, 0 0 20px #8adf52, 0 0 25px #8adf52;
+  }
+  to {
+    box-shadow: 0 0 2px #97f857, 0 0 2px #67af37 0 0 5px #84f13b, 0 0 10px #8adf52, 0 0 15px#8adf52, 0 0 20px #8adf52, 0 0 25px #8adf52;
+  }
+}
+
 .contactme_item {
-  background-color: var(--main-color);
+  background-color: rgb(20, 170, 20);
   border-radius: 10px;
   width: 35px;
   height: 35px;
-  box-shadow: 0 0 5px  rgb(128, 255, 128, 0.4), 0 0 10px rgba(150, 243, 150, 0.5), 0 0 5px rgba(116, 243, 116, 0.5) 0 0 5px rgba(96, 255, 96, 0.5), 0 0 15px rgba(0, 255, 0, 0.6);
   transition: 0.3s ease-in-out;
-  animation:  flicker 6s infinite;
-  animation-direction: alternate;
-}
-
-
-.mail {
-  animation-delay: 7s;
-}
-
-.linked {
-  animation-delay: 15s;
-}
-
-.github {
-  animation-delay: 19s;
 }
 
 .contactme_item:hover {
   transform: scale(1.1);
   background-color: #ffffffd0;
+  box-shadow: 0 0 5px  rgb(128, 255, 128, 0.4), 0 0 10px rgba(150, 243, 150, 0.5), 0 0 5px rgba(116, 243, 116, 0.5) 0 0 5px rgba(96, 255, 96, 0.5), 0 0 15px rgba(0, 255, 0, 0.6);
 }
 
 .profession {
