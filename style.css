@@ -262,24 +262,35 @@ ol {
 }
 
 .contactme_item {
-  background-color: rgb(20, 170, 20);
+  background-color: rgb(0, 255, 0);
+  box-shadow: 0 0 1px rgb(0, 255, 0), 0 0 2px rgb(0, 255, 0), 0 0 3px rgb(0, 255, 0), 0 0 5px rgb(0, 255, 0), 0 0 7px rgb(0, 255, 0, 0.3), 0 0 10px rgb(0, 255, 0, 0.3), 0 0 15px rgb(0, 255, 0, 0.2);
   border-radius: 10px;
   width: 35px;
   height: 35px;
   transition: 0.3s ease-in-out;
-  animation: flicker 15s infinite;
+  animation: flicker 15s infinite, glow1 4s infinite;
 }
 
+@keyframes glow1 {
+  from {
+    box-shadow: 0 0 2px rgb(0, 255, 0, 0.5), 0 0 2px rgba(0, 255, 0, 0.986), 0 0 5px rgba(0, 255, 0, 0.849), 0 0 7px rgb(0, 255, 0, 0.5), 0 0 8px rgb(0, 255, 0), 0 0 7px rgb(0, 255, 0, 0.5);
+  }
+  to {
+    box-shadow: 0 0 2px rgb(0, 255, 0), 0 0 2px rgb(0, 255, 0), 0 0 5px rgb(0, 255, 0), 0 0 6px rgb(0, 255, 0), 0 0 7px rgb(0, 255, 0), 0 0 9px rgb(0, 255, 0), 0 0 10px rgb(0, 255, 0);
+  }
+}
+
+
 .mail {
-  animation-delay: 0.2s;
+  animation-delay: 3s;
 }
 
 .github {
-  animation-delay: 5s;
+  animation-delay: 9s;
 }
 
 .linked {
-  animation-delay: 0.7s;
+  animation-delay: 6s;
 }
 
 .contactme_item:hover {
