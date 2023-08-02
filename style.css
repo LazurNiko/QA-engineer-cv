@@ -8,7 +8,8 @@ body {
   max-width: 1200px;
   background: rgb(37, 37, 37);
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Rajdhani", "Odoo Unicode Support Noto", sans-serif;
+  line-height: 1.5;
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 20px;
@@ -102,15 +103,13 @@ ol {
   padding: 30px;
   font-size: 14px;
   letter-spacing: 2;
-  font-family: monospace;
-  font-weight: 700;
+  font-weight: 400;
   
 }
 
 .phonecontact {
   line-height: 24px;
-  font-weight: 400;
-  font-family: monospace;
+  font-weight: 500;
   color: #e0e0e0;
 }
 
@@ -155,9 +154,8 @@ ol {
 }
 
 .skills_title {
-  font-family: monospace;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 20px;
   padding-left: 30px;
   padding-top: 17px;
@@ -199,7 +197,6 @@ ol {
 .skills {
   text-transform: uppercase;
   color: #e0e0e0;;
-  font-family: monospace;
   font-size: 12px;
   font-weight: 400;
   line-height: 24px;
@@ -224,9 +221,7 @@ ol {
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
-
-  font-family: monospace;
-  font-weight: 500;
+  font-weight: 400;
 
   animation-name: slideDownBlock;
   -webkit-animation-name: slideDownBlock;
@@ -245,9 +240,8 @@ ol {
 }
 
 .contacts_title {
-  font-family: monospace;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--main-color);
 }
 
@@ -262,8 +256,8 @@ ol {
 }
 
 .contactme_item {
-  background-color: rgb(72, 113, 114);
-  box-shadow: 0 0 1px rgb(241, 241, 241), 0 0 2px rgb(235, 240, 235), 0 0 3px rgb(191, 192, 191), 0 0 5px rgb(133, 193, 201), 0 0 7px rgba(198, 239, 255, 0.37), 0 0 10px rgba(119, 211, 240, 0.3), 0 0 15px rgba(154, 237, 248, 0.2);
+  background-color: #478d29;
+  box-shadow: 0 0 1px rgb(68, 255, 62), 0 0 2px rgb(210, 255, 210), 0 0 3px rgb(197, 255, 197), 0 0 5px #478d29, 0 0 7px #478d29, 0 0 10px #295218, 0 0 15px #295218;
   border-radius: 10px;
   width: 35px;
   height: 35px;
@@ -271,12 +265,10 @@ ol {
 }
 
 .contactme_item:hover {
-  transform: scale(1.1);
-  background-color: #ffffffd0;
+  background-color: #295218;;
 }
 
 .profession {
-  font-family: monospace;
   font-size: 15px;
   font-weight: 400;
   line-height: 15px;
@@ -321,7 +313,6 @@ ol {
 }
 
 .type {
-  font-family: monospace;
   color:#0000;
   background:
     linear-gradient(-90deg,#ffffff 5px,#0000 0) 10px 0,
@@ -790,6 +781,7 @@ glitch-wrapper {
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
+    margin: 5px;
   }
 
   .header {
@@ -898,6 +890,7 @@ glitch-wrapper {
   }
 
   .contacts {
+    padding:10px 30px 20px 30px;
     display: flex;
     width: 90%;
   }
@@ -907,31 +900,19 @@ glitch-wrapper {
   }
 
   .skills_title {
-    padding: 19px 0;
     margin: 0 20px;
   }
 
   .tech_skills {
+    padding: 0 auto;
     display: flex;
     width: 100%;
-    padding-top: 20px;
-  }
-
-  .skills_title--soft {
-    padding-right: 9px;
+    padding-top: 10px;
   }
 
   .soft_skills {
     display: flex;
     width: 100%;
-  }
-
-  .skills {
-    padding-left: 20px;
-  }
-
-  .container {
-    padding-left: 0;
   }
 }
 
@@ -1021,10 +1002,12 @@ glitch-wrapper {
   }
 
   .contacts_list {
-    padding-left: 0;
+    padding: 0;
   }
 
   .skills_title {
+    padding: 0;
+    text-align: center;
     font-size: 25px;
   }
 
@@ -1035,11 +1018,13 @@ glitch-wrapper {
   }
 
   .tech_skills {
+    text-align: center;
     display: block;
     width: 100%;
   }
 
   .soft_skills {
+    text-align: center;
     display: block;
     width: 100%;
   }
