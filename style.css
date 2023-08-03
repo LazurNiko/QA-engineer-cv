@@ -154,7 +154,8 @@ ol {
 }
 
 .skills_title {
-  font-size: 20px;
+  text-transform: uppercase;
+  font-size: 17px;
   font-weight: 500;
   margin-bottom: 20px;
   padding-left: 30px;
@@ -240,7 +241,8 @@ ol {
 }
 
 .contacts_title {
-  font-size: 20px;
+  text-transform: uppercase;
+  font-size: 17px;
   font-weight: 500;
   color: var(--main-color);
 }
@@ -748,12 +750,12 @@ glitch-wrapper {
   }
 
   .contacts_title {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .skills_title {
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .skills_list {
@@ -832,13 +834,8 @@ glitch-wrapper {
     width: 33%;
   }
 
-  .contacts_title {
-    font-size: 25px;
-  }
-
   .skills_title {
     padding-left: 0;
-    font-size: 20px;
   }
 
   .phonecontact {
@@ -906,7 +903,7 @@ glitch-wrapper {
   }
 
   .skills_title {
-    font-size: 20px;
+    font-size: 17px;
     writing-mode: vertical-lr;
     padding-top: 40px;
   }
@@ -1008,7 +1005,6 @@ glitch-wrapper {
 
   .contacts_title {
     margin-left: 20px;
-    font-size: 25px;
   }
 
   .contacts_list {
@@ -1017,7 +1013,7 @@ glitch-wrapper {
 
   .skills_title {
     
-    font-size: 15px;
+    font-size: 17px;
   }
 
   .tel {
