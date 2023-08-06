@@ -271,9 +271,13 @@ ol {
   background-color: #295218;;
 }
 
+.profession_wrapper {
+  padding: 30px 0 0 0;
+}
+
 .profession {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 15px;
   letter-spacing: 10px;
   padding-top: 60px;
@@ -281,6 +285,17 @@ ol {
 
   position: relative;
   animation: mymoveP 2s forwards, flicker 7s infinite, glow 2s infinite;
+}
+
+.pen {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 10px;
+  padding-top: 60px;
+  color: #6CCAD1;
+  animation: flicker 3s infinite, glow 2s infinite;
+  animation-delay: 4s;
 }
 
 @keyframes glow {
