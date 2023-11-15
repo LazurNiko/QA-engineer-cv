@@ -731,9 +731,6 @@ glitch-wrapper {
 
 @media (max-width: 860px) {
 
-  .phonecontact {
-    font-size: 12px;
-  }
 
   .link {
     font-size: 13px;
@@ -759,10 +756,6 @@ glitch-wrapper {
   .about {
     padding: 0 23px;
     width: 60%;
-  }
-
-  .tel {
-    font-size: 12px;
   }
 
   .contacts_title {
@@ -817,7 +810,7 @@ glitch-wrapper {
 
   .menu__list {
     display: block;
-    letter-spacing: 2px;
+    
     padding: 0;
   }
 
@@ -854,14 +847,9 @@ glitch-wrapper {
     padding-left: 0;
   }
 
-  .phonecontact {
-    font-size: 14px;
-  }
-
   .tel {
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 14px;
   }
   .specialization {
     padding-bottom: 70px;
@@ -909,7 +897,6 @@ glitch-wrapper {
 
   .contacts {
     padding:10px 30px 20px 30px;
-    display: flex;
     width: 90%;
   }
 
@@ -936,6 +923,10 @@ glitch-wrapper {
 
   .skills_wrapper {
     padding-bottom: 20px;
+  }
+
+  .phonecontact {
+    text-align: center;
   }
 }
 
@@ -1017,10 +1008,6 @@ glitch-wrapper {
 
   .sidebar {
     padding: 0;
-  }
-
-  .contacts_title {
-    margin-left: 20px;
   }
 
   .contacts_list {
