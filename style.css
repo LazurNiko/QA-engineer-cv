@@ -284,7 +284,7 @@ ol {
   color: #6CCAD1;
 
   position: relative;
-  animation: mymoveP 2s forwards, flicker 7s infinite, glow 2s infinite;
+  animation: glow 2s infinite;
 }
 
 .pen {
